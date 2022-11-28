@@ -1,0 +1,13 @@
+.home-1 img{
+  width: 100%;
+  border: 1px solid greenyellow;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 1px;
+}
+.home-1{
+    border-top: 1px solid yellowgreen;
+    margin-top: 20px;
+    margin-right: -3px;
+    margin-left: -230px;
+}

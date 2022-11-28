@@ -1,0 +1,15 @@
+.header a{
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 2px 5px;
+    margin-left:30px;
+    color: yellowgreen;
+    font-weight: 700;
+}
+.header a:hover{
+    background-color: lightblue;
+}
+.first{
+    margin-left: 900px;
+
+}
