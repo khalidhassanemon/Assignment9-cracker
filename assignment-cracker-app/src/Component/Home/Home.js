@@ -1,10 +1,13 @@
 import React from 'react';
+import Cards from '../Cards/Cards';
 import Image from './banner.jpg';
 import './Home.css'
 const Home = () => {
+    // const { name, logo } = card;
     return (
         <div className='home-1'>
-            <img src={Image}></img>
+
+            <img src={Image} alt=''></img>
         </div>
     );
 };

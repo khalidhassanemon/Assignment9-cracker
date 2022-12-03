@@ -1,0 +1,11 @@
+
+footer{
+    border-top: 1px solid rgb(66, 66, 240);
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+    padding: 30px;
+    margin-left: -378px;
+    margin-right: 0px;
+  }
