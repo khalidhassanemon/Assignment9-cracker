@@ -1,0 +1,32 @@
+.structure h1{
+    /* border-bottom: 1px solid gray;     */
+    margin-right: 100px;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.structure{
+    margin-right: 100px;
+    padding: 50px;
+}
+.structure-2{
+    border: 1px solid gray;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.structure-3{
+    margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: palegreen;
+}
+.structure-3 p{
+    font-weight: 700;
+    display: flex;
+    flex-wrap:wrap;
+}

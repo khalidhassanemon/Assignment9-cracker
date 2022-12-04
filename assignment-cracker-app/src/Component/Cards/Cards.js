@@ -6,7 +6,7 @@ import './Cards.css';
 
 const Cards = () => {
     const cards = useLoaderData();
-    console.log(cards);
+    // console.log(cards);
     return (
         <div>
             <Home></Home>

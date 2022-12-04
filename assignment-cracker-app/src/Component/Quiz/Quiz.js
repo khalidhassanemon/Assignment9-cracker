@@ -1,9 +1,10 @@
 import React from 'react';
-import './Quiz.css'
-const Quiz = () => {
+
+const Quiz = ({card}) => {
+    const {options,question}=card;
     return (
-        <div className='third'>
-            <h1>This os quiz</h1>
+        <div>
+            <h4>{question}</h4>
         </div>
     );
 };
