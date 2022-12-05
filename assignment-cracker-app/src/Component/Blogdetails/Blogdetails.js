@@ -7,7 +7,7 @@ const Blogdetails = () => {
     console.log(blog);
     return (
         <div className='structure'>
-            <h1>quiz of {blog.data.name}</h1>
+            <h1>Quiz of {blog.data.name}</h1>
             {
                 (blog.data.questions).map(card =>
                     <Quiz
