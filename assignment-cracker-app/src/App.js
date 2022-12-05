@@ -6,6 +6,7 @@ import About from './Component/About/About';
 import Main from './Component/Main/Main';
 import Cards from './Component/Cards/Cards';
 import Blogdetails from './Component/Blogdetails/Blogdetails';
+import Blogs from './Component/Blogs/Blogs';
 
 function App() {
   const router = createBrowserRouter([
@@ -17,6 +18,7 @@ function App() {
         { path: '/', element: <Home></Home> },
         { path: 'home', element: <Home></Home> },
         { path: 'about', element: <About></About> },
+        {path:'blogs', element:<Blogs></Blogs>},
         {
           path: 'cards',
           loader: async () => {

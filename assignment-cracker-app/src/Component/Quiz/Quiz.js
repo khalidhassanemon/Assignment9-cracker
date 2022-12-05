@@ -5,7 +5,7 @@ const Quiz = ({ card }) => {
     const { options, question, correctAnswer } = card;
     console.log(correctAnswer);
     const handleClick=()=>{
-        alert(JSON.stringify(correctAnswer));
+        alert("Correct Ans is : "+JSON.stringify(correctAnswer));
     }
     return (
         <div className='border rounded w-912 mx-auto my-6 bg-gray-100'>
