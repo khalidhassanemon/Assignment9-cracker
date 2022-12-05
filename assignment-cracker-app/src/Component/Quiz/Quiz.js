@@ -3,7 +3,7 @@ import QuizOption from '../QuizOption/QuizOption';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 const Quiz = ({ card }) => {
     const { options, question, correctAnswer } = card;
-    console.log(correctAnswer);
+   
     const handleClick=()=>{
         alert("Correct Ans is : "+JSON.stringify(correctAnswer));
     }

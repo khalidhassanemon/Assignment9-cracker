@@ -4,7 +4,6 @@ import Quiz from '../Quiz/Quiz';
 import './Blogdetails.css'
 const Blogdetails = () => {
     const blog = useLoaderData();
-    console.log(blog);
     return (
         <div className='structure'>
             <h1>Quiz of {blog.data.name}</h1>
