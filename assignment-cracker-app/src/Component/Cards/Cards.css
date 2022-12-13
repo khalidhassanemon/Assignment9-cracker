@@ -6,6 +6,11 @@ footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: gainsboro;
     padding: 30px;
-    margin-left: -378px;
-    margin-right: 0px;
+    margin-left: -250px;
+    margin-right: -190px;
+    /* padding-right: 100px; */
+  }
+  .arg{
+    display: flex;
+    gap: 30px;
   }

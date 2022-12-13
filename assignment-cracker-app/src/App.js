@@ -49,7 +49,7 @@ function App() {
   return (
     <div className='container'>
       <div className='App'>
-        <h2 style={{ color: 'yellowGreen' }}>Assignment Crackers</h2>
+        <h2 style={{ color: 'yellowGreen',marginTop:'-30px' }}>Assignment Crackers</h2>
         <RouterProvider router={router}></RouterProvider>
       </div>
     </div>

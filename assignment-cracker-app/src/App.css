@@ -1,10 +1,12 @@
 .App {
   display: flex;
   flex-direction: row;
+  padding: 40px;
+  padding-right: 120px;
 }
 .App h2{
-  margin-left: 100px;
   margin-top: -5px;
+  margin-left: -100px;
 }
 .App-logo {
   height: 40vmin;

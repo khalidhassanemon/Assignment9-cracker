@@ -12,7 +12,8 @@ const Cards = () => {
             <Home></Home>
             <div >
                 <div>
-                {
+                    <div className='arg'>
+                    {
                     (cards.data).map(card =>
                         <Blog
                             key={card.name}
@@ -20,6 +21,8 @@ const Cards = () => {
                         ></Blog>
                     )
                 }
+                    </div>
+      
                 </div>
            
             </div>
