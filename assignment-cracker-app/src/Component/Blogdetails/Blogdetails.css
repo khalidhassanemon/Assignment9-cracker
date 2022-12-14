@@ -1,5 +1,4 @@
 .structure h1{
-    /* border-bottom: 1px solid gray;     */
     margin-right: 100px;
     padding-top: 40px;
     margin-bottom: 30px;
@@ -7,6 +6,6 @@
 
 .structure{
     margin-right: 200px;
-    margin-left: -100px;
+    margin-left: -50px;
     padding: 50px;
 }

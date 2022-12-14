@@ -1,12 +1,12 @@
 .home-1 img{
-  width: 150%;
   border: 1px solid greenyellow;
   border-radius: 20px;
   margin-top: 60px;
-  margin-bottom: 20px;
-  margin-left: 7px;
+  margin-bottom: 50px;
 }
 .home-1{
     border-top: 1px solid yellowgreen;
     margin-top: 30px;
+    margin-right: 100px;
+
 }

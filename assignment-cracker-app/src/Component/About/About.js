@@ -2,7 +2,7 @@ import React from 'react';
 import './Abbout.css'
 const About = () => {
     return (
-        <div className='second mt-24 border bg-gray-500 p-20 mr-48'>
+        <div className='second mt-24 border bg-gray-500 p-20 mr-24'>
             <h2>About Component</h2>
             <div className='mr-16'>
                 <p>In This Assignment we learned A plenty of Things.</p>

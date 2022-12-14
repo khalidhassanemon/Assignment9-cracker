@@ -52,13 +52,18 @@ function App() {
     <div className='container'>
       <div className='App'>
         <div className='row'>
-          <h2 style={{ color: 'yellowGreen', marginTop: '120px' }}>Assignment Crackers</h2>
+          <h2 style={{ color: 'yellowGreen', marginTop: '140px',marginLeft:'15px'}}>Assignment Crackers</h2>
         </div>
         <div className='row-2'>
           <RouterProvider router={router}></RouterProvider>
         </div>
 
       </div>
+      <div className='mt-24'>
+               <footer>
+                <h3>@copyright-2022</h3>
+            </footer>
+    </div>
     </div>
   );
 }
