@@ -15,7 +15,7 @@ const QuizOption = ({ option, correctAnswer }) => {
 
         <div className = 'border-4 m-2 p-6 rounded-xl' >
             <button onClick={handleClick}>
-                <ul className='list-disc list-inside'><li>{option}</li></ul></button>
+                <ul className='list-disc list-inside -ml-5'><li>{option}</li></ul></button>
         </div >
     );
 };
