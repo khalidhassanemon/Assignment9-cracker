@@ -2,11 +2,18 @@
   display: flex;
   flex-direction: row;
   padding: 40px;
-  padding-right: 120px;
+  margin-left: -60px;
+  /* padding-right: 20px;
+  padding-left: 20px; */
 }
-.App h2{
-  margin-top: -5px;
-  margin-left: -100px;
+.row{
+  display: flex;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+  background-color: gainsboro;
+}
+.row-2{
+  margin-left: 50px;
 }
 .App-logo {
   height: 40vmin;

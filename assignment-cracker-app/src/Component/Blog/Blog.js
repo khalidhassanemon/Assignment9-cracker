@@ -12,7 +12,7 @@ const Blog = ({ card }) => {
             <div>
                 <CardGroup className='first-1'>
                     <Card>
-                        <Card.Img style={{ width: '25rem', height: '10rem' }} src={logo} />
+                        <Card.Img style={{ width: '20rem', height: '10rem' }} src={logo} />
                         <Card.Body>
                             <Card.Title style={{ textAlign: 'center' }}>{name}</Card.Title>
                             <h4 style={{ color: 'blue', marginLeft: '30px' }}><small>Total Question: {total}</small></h4>

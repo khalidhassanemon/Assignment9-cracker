@@ -19,12 +19,14 @@ function App() {
         { path: '/', element: <Home></Home> },
         { path: 'home', element: <Home></Home> },
         { path: 'about', element: <About></About> },
-        {path:'blogs', element:<Blogs></Blogs>},
-        {path:'statistics',
-        loader:async()=>{
-           return fetch('https://openapi.programming-hero.com/api/quiz');
+        { path: 'blogs', element: <Blogs></Blogs> },
+        {
+          path: 'statistics',
+          loader: async () => {
+            return fetch('https://openapi.programming-hero.com/api/quiz');
+          },
+          element: <Statistics></Statistics>
         },
-        element:<Statistics></Statistics>},
         {
           path: 'cards',
           loader: async () => {
@@ -36,8 +38,8 @@ function App() {
         {
           path: '/blog/:blogId',
           loader: async ({ params }) => {
-          // console.log(params.blogId); 
-          return fetch(`https://openapi.programming-hero.com/api/quiz/${params.blogId}`)
+            // console.log(params.blogId); 
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.blogId}`)
           },
           element: <Blogdetails></Blogdetails>
         }
@@ -49,8 +51,13 @@ function App() {
   return (
     <div className='container'>
       <div className='App'>
-        <h2 style={{ color: 'yellowGreen',marginTop:'-30px' }}>Assignment Crackers</h2>
-        <RouterProvider router={router}></RouterProvider>
+        <div className='row'>
+          <h2 style={{ color: 'yellowGreen', marginTop: '120px' }}>Assignment Crackers</h2>
+        </div>
+        <div className='row-2'>
+          <RouterProvider router={router}></RouterProvider>
+        </div>
+
       </div>
     </div>
   );

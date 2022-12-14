@@ -8,23 +8,26 @@ const Cards = () => {
     const cards = useLoaderData();
     // console.log(cards);
     return (
-        <div>
-            <Home></Home>
+        <div >
+            <div>
+                <Home></Home>
+            </div>
+
             <div >
                 <div>
                     <div className='arg'>
-                    {
-                    (cards.data).map(card =>
-                        <Blog
-                            key={card.name}
-                            card={card}
-                        ></Blog>
-                    )
-                }
+                        {
+                            (cards.data).map(card =>
+                                <Blog
+                                    key={card.name}
+                                    card={card}
+                                ></Blog>
+                            )
+                        }
                     </div>
-      
+
                 </div>
-           
+
             </div>
             <footer>
                 <h3>@copyright-2022</h3>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Cards from '../Cards/Cards';
 import Image from './banner.jpg';
 import './Home.css'
 const Home = () => {

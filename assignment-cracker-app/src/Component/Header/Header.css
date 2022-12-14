@@ -1,6 +1,5 @@
 .header a{
     text-decoration: none;
-    margin-right:30px;
     padding: 2px 5px;
     margin-left:10px;
     color: yellowgreen;
@@ -10,5 +9,8 @@
     background-color: lightblue;
 }
 .first{
-    margin-left: 650px;
+    margin-left: 720px;
 }
+/* .header{
+    margin-bottom: 2px;
+} */

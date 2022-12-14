@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='mt-24 border bg-gray-500 mr-6 -ml-6 p-20 mr-32'>
+        <div className='mt-24 border bg-gray-500 ml-6 p-20 mr-32'>
             <div className='mr-16'>
           <h2 className='text-3xl text-center'>What is the purpose of react router?</h2>
           <p className='text-center '><small>React Router is a JavaScript framework that lets us handle client and server-side routing in React applications. It enables the creation of single-page web <br>
